@@ -9,7 +9,7 @@ public class HomePage {
 	private By myAccountDropDown = By.xpath("//span[@class='caret']");
 	private By myAccountLink = By.linkText("My Account");
 	private By myAccountLabel = By.xpath("//h2[text()='My Account']");
-	private By myOrdersLabel = By.xpath("//h2[text()='My Orders']");
+	//private By myOrdersLabel = By.xpath("//h2[text()='My Orders']");
 	
 	public HomePage(WebDriver driver) {
 		this.driver=driver;
@@ -34,11 +34,5 @@ public class HomePage {
 		}
 		return false;
 	}
-	
-	public boolean isMyOrdersLabelPresent() {
-		if (driver.findElement(myOrdersLabel).isDisplayed()) {
-			return true;
-		}
-		return false;
-	}
+
 }
