@@ -9,5 +9,10 @@ public class CartTest {
 	public void getCartTest() {
 		Assert.assertEquals(true, true);
 	}
+	
+	@Test
+	public void getCartTest2() {
+		Assert.assertEquals(true, true);
+	}
 
 }
