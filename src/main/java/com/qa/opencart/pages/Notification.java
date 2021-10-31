@@ -4,7 +4,8 @@ public class Notification {
 	
 	public void getNotification() {
 
-		System.out.println("Notification Logic---Naveen");
+		System.out.println("Notification Logic---Naveen Khunteta");
+		System.out.println("Notification Logic---Aravind M");
 		
 	}
 		public void sendNotification() {
